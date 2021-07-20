@@ -7,6 +7,8 @@ import datetime as dt
 
 
 
+#Create your models here.
+
 class PostProjects(models.Model):
     title = models.CharField(max_length=150)
     description = HTMLField()
